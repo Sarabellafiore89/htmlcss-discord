@@ -77,8 +77,6 @@ a{
 
 
 .button-white{
-    display: flex;
-    text-align:right;
     padding:10px;
     border-radius: 99999px;
     border:none;
@@ -99,9 +97,8 @@ a{
 }
 
 .hero{
-    display: flex;
-    padding: 150px;
-    align-items: center;
+    text-align: center;
+    flex-basis: 60%;
     
 }
 
@@ -121,16 +118,13 @@ a{
     text-align: center;
 }
 
-.lower button{
+.lower-button{
     font-size: 15px;
     border-radius: 9999px;
     padding:10px 10px;
     margin:20px;
 }
 
-.button-white{
-    color:black;
-}
 
 .button-black{
     background-color: black;
@@ -148,12 +142,15 @@ a{
     padding:40px; 
 }
 
-#light-blue{
+.light-blue{
     background-color: blue;
     flex-basis:40%;
-    background-image: url
-    
+      
 
+}
+
+.img{
+    height:300px;
 }
     
 #pink{
