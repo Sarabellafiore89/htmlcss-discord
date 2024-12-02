@@ -245,16 +245,33 @@ a{
 }
 
 #salmon{
-background-color: salmon;
+
 flex-basis: 20%;
-border:2px dashed black;
+
 }
 
 .turqoise{
-    background-color: turquoise;
+    
     flex-basis: 10%;
-    border:2px dashed black;
+    
 
+}
+
+h3{
+    color: white;
+}
+
+
+.link-list{
+    color:purple;
+    font-size: 20px;
+
+}
+
+ul{
+    color:white;
+    list-style: none;
+    line-height: 25px;
 }
 
 
