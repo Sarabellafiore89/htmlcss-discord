@@ -261,6 +261,38 @@ h3{
     color: white;
 }
 
+.italia{
+    width: 20px;
+    height: 15px;
+}
+
+.simboli
+{
+    display: flex; 
+    color: white;
+}   
+    .bandiera{
+        width: 20px;
+        height: 15px;
+    }
+    
+    
+    .loghi img{
+        width: 25px;
+    }
+
+
+.simboli > li{
+    margin: 20px 0;
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.simboli img{
+    width: 25px;
+}
+
 
 .link-list{
     color:purple;
