@@ -289,7 +289,6 @@ ul{
 
 .acquamarine-container{
     display: flex;
-    background-color: aquamarine;
     height:50px;
     flex-basis:60%;
     justify-content: space-between;
@@ -299,8 +298,8 @@ ul{
 
 
 .boxes{
-    background-color: pink;
-    border:2px dashed black;
+    
+    
     flex-basis: 10%;
 
 }
