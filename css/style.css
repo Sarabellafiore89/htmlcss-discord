@@ -143,7 +143,6 @@ a{
 }
 
 .light-blue{
-    background-color: blue;
     flex-basis:40%;
       
 
@@ -153,31 +152,34 @@ a{
     height:300px;
 }
     
-#pink{
-    background-color: pink;
+#pink-uno{
     flex-basis:20%;
-    border:2px dashed black;
+    line-height: 25px;
+    
 }
     /* grey container */
 
 #grey-container{
     display: flex;
-    background-color: grey;
     height:300px;
     justify-content: center;
     padding:40px; 
 }
 
-#pink{
-    background-color: pink;
-    flex-basis:40%;
-    border:2px dashed black;
+#pink-due{
+    flex-basis:25%;
+    line-height:25px;
+  
 }
 
-#light-blue{
-    background-color: blue;
+.light-blue{
+    
     flex-basis:20%;
-    border:2px dashed black;
+    
+}
+
+.img{
+ height:300px;
 }
 
 #second-white-container{
@@ -189,35 +191,48 @@ a{
 }
 
 
-#light-blue{
-    background-color: blue;
+.light-blue{
+    
     flex-basis:40%;
-    border:2px dashed black;
+    padding:10px;
+
 
 }
 
-#pink{
-    background-color: pink;
+.img{
+    height:300px;
+}
+
+#pink-tre{
     flex-basis:20%;
-    border:2px dashed black;
+    line-height: 25px;
+    padding:20px;
+    
 }
 
 /* second grey container */
 #second-grey-container{
-    background-color: grey;
     display: flex;
     height:500px;
     justify-content: center;
     padding:40px;
+    margin:50px;
 
 }
 
 #green{
-    background-color: darkgreen;
     flex-basis:60%;
-    border:2px dashed black;
+    
 }
 
+.img-quarta{
+    height:300px;
+}
+
+.button-lightblue{
+    background-color:#8ea2e0;
+    color:white;
+}
 
 /* black container */
 #black-container{
@@ -226,6 +241,7 @@ a{
     height:500px;
     justify-content: center;
     padding:40px;
+    
 }
 
 #salmon{
